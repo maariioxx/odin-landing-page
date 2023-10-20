@@ -105,3 +105,67 @@ h2 {
     font-size: 16px;
     color: #9e9fa1
 }
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+
+}
+
+.testimonial-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.tes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 100px;
+    max-width: 800px;
+}
+
+h6 {
+    font-size: 15px;
+    white-space: nowrap;
+    margin-top: 0;
+}
+
+.ad {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 50px;
+    color:#F9FAF8;
+
+}
+
+.ad-background {
+    background-color: #3882F6;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    gap: 100px;
+}
+
+#ad-button {
+    max-height: 30px;
+    width: 150px;
+    border: 2px solid #F9FAF8
+}
+
+.ad-text {
+    width: 500px;
+}
+
+#ad1 {
+    margin-bottom: 0;
+}
+
+#ad2 { /* This one is for the lower text of the ad */
+    margin-top: 2px;
+}
