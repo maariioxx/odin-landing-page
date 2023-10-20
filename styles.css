@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 150px;
-    margin: 0 300px;
+    margin: 0 200px;
     gap: 50px
 }
 
@@ -63,8 +63,12 @@ button {
     max-width: 125px;
     color: #F9FAF8;
     font-weight: 600;
+    border: none;
 }
 
+a {
+    text-decoration: none;
+}
 
 
 .intro-photo {
@@ -168,4 +172,10 @@ h6 {
 
 #ad2 { /* This one is for the lower text of the ad */
     margin-top: 2px;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    color: #F9FAF8;
 }
