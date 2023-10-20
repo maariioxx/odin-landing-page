@@ -1,4 +1,72 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+.header, .intro, .footer, .top {
+    background-color: #1F2937;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    margin: 0 250px;
+    gap: 50px
+}
+
+.intro {
+    display: flex;
+    margin: 50px 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    max-width: 450px;
+    
+    
+    
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header-text, a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 3px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding: 5px 15px;
+    max-width: 125px;
+    color: #F9FAF8
+}
+
+
+
 .intro-photo {
     height: 400px;
-    width: 500px;
+    width: 600px;
+    margin: 50px 50px 50px 0;
 }
