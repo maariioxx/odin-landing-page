@@ -1,5 +1,6 @@
 body {
     font-family: roboto, sans-serif;
+    margin: 0;
 }
 
 .header, .intro, .footer, .top {
@@ -60,7 +61,8 @@ button {
     border-radius: 7px;
     padding: 5px 15px;
     max-width: 125px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-weight: 600;
 }
 
 
@@ -73,7 +75,7 @@ button {
     border-radius: 7px;
 }
 .content {
-    margin: 0 0 100px;
+    margin-bottom: 100px;
 }
 .content-container {
     display: flex;
